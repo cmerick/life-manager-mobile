@@ -1,7 +1,7 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import Start from "../Pages/start"
+import Start from "../Pages/start";
 
 const Stack = createNativeStackNavigator();
 
@@ -13,12 +13,8 @@ export default function AllPages() {
                     headerShown: false,
                 }}
             >
-
                 <Stack.Screen name="Start" component={Start} />
-
-            </ Stack.Navigator>
-
-
-        </NavigationContainer >
-    )
+            </Stack.Navigator>
+        </NavigationContainer>
+    );
 }
