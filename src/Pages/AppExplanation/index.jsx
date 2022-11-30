@@ -1,6 +1,7 @@
 import React from "react";
 import { View, ScrollView, Text, StyleSheet } from "react-native";
-import DefaultButton from "../../components/common/DefaultButton"
+import DefaultButton from "../../components/common/DefaultButton";
+import ExplanationCard from "../../components/explanation/explanationCard";
 
 export default function AppExplanation() {
 
@@ -15,6 +16,7 @@ export default function AppExplanation() {
                     <Text style={styles.title}>
                         Antes, deixa {"\n"} eu te explicar...
                     </Text>
+                    <ExplanationCard />
                     <Text style={styles.callToAction}>
                         Pronto(a) para subir de nível na vida?
                     </Text>
